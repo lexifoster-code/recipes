@@ -7,7 +7,7 @@ body.main-html{
     background-repeat: no-repeat;
     background-size:cover;
 }
-h1{
+h1.recipes{
     font-size: 5em;
     color: aliceblue;
     display: flex;
@@ -16,9 +16,9 @@ h1{
     position: relative;
     top: 1.5em;
 }
-h2{
+h2.headline-1{
     font-size: 1.5em;
-    color: black;
+    color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,14 +55,15 @@ body{
 
   .lasagna-heading{
       color: brown;
-     
-    
+      font-size: 4.5em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   
+
   }
 
-.heading{
-position: relative;
-bottom: 5em;
-}
+
 
   img{
       display: flex;
@@ -75,14 +76,16 @@ bottom: 5em;
       border-radius: 15px;
       
   }
+  .headline{
+      color: black;
+      display: flex;
+      justify-content: center;
+  }
 .p-lasagna{
-    position:relative;
-    top:7.5em;
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 h3.lasagna-ingrediants{
     color: brown;
@@ -91,4 +94,32 @@ h3.lasagna-ingrediants{
 .steps{
     color:brown;
     font-size: 25px;
+}
+h1.chili{
+    color: brown;
+    font-size: 4.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2.headline-2{
+    display: flex;
+    position: relative;
+    
+}
+h1.potato{
+    color: brown;
+    font-size: 4.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2.headline-3{
+    display: flex;
+    justify-content: center;
+}
+
+p.p-potato{
+    display: flex;
+    justify-content: center;
 }
